@@ -1,2 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Aula_003;
+Console.Clear();
+Exercicio1.Executar();
+await Task.Delay(TimeSpan.FromSeconds(3));
+Console.Clear();
+Exercicio2.Executar();
+await Task.Delay(TimeSpan.FromSeconds(3));
+Console.Clear();
+Exercicio3.Executar();
+await Task.Delay(TimeSpan.FromSeconds(3));
+Console.Clear();
+Exercicio4.Executar();
+await Task.Delay(TimeSpan.FromSeconds(3));
+Console.Clear();
+Exercicio5.Executar();
+await Task.Delay(TimeSpan.FromSeconds(3));
+Console.Clear();
